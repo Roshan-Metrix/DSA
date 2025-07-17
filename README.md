@@ -72,4 +72,4 @@ Feel free to fork the repo and submit pull requests for improvements or new solu
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](license.txt).
