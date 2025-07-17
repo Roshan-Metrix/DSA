@@ -1,15 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int searchIndex(int noOfDatas, int records[], int searchNum)
-{
-    int number = records[0];
+int searchIndex(int noOfDatas, int records[], int searchNum){
     for (int i = 0; i < noOfDatas; i++){
         if (records[i] == searchNum){
-            number = i;
+            return i;
         }
     }
-    return number;
+    return -1;
 }
 
 int main()
