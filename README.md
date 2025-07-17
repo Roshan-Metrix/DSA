@@ -1,4 +1,4 @@
-# DSA Practice
+# DSA Practice & LeetCode solved Problems
 
 This repository contains solutions to various Data Structures and Algorithms (DSA) problems. The goal is to practice and improve problem-solving skills by implementing efficient algorithms in C++.
 
