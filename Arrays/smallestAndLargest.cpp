@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+// Finding smallest number
 int smallestNumber(int num,int records[]){
     int min = records[0];
     for(int i=0;i<num;i++){
@@ -11,7 +12,18 @@ int smallestNumber(int num,int records[]){
     }
     return min;
 }
-
+ // Finding largest number
+int largestNumber(int num,int records[]){
+    int max = records[0];
+    for(int i=0;i<num;i++){
+        if(records[i] > max){
+            max = records[i];
+        }
+    }
+    return max;
+}
+ 
+// Main fuction to call smallest and largest function
 int main(){
     int n;
      cout << "Enter the no. of datas for Array:";
@@ -22,6 +34,8 @@ int main(){
      for(int i=0;i<n;i++){
         cin >> datas[i];
      }
-    cout << "Smallest Among them is "<< smallestNumber(n, datas);
+     cout << '\n' ;
+    cout << "Smallest Among them is "<< smallestNumber(n, datas) << endl;
+    cout << "largest Among them is "<< largestNumber(n, datas) << endl;
     return 0;
 }
