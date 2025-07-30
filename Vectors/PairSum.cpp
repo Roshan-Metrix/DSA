@@ -6,21 +6,46 @@
 #include<vector>
 using namespace std;
 
+// Brute force method
+// Time complexity 0(n2)
+
+// vector<int> pairSum(vector<int> nums,int target){
+//     vector<int> ans;
+//      for(int i=0;i<nums.size();i++){
+//       for(int j=i+1;j<nums.size();i++){
+//         if(nums[i]+nums[j] == target){
+//             ans.push_back(i);
+//             ans.push_back(j);
+//              return ans;         
+//         }
+//       }
+//     }
+//     return ans;
+// }
+
+
+
+// Time complexity 0(n)
+
 vector<int> pairSum(vector<int> nums,int target){
     vector<int> ans;
-
-     for(int i=0;i<nums.size();i++){
-      for(int j=i+1;j<nums.size();i++){
-        if(nums[i]+nums[j] == target){
-            ans.push_back(i);
-            ans.push_back(j);
-             return ans;
-           
-        }
-      }
+   int n= nums.size();
+   int i = 0,j=n-1;
+   while(i < j){
+    int pairSum = nums[i] + nums[j];
+    if(pairSum > target){
+       j--;
+    } else if(pairSum < target){
+      i++;
+    } else{
+      ans.push_back(i);
+      ans.push_back(j);
+      return ans;
     }
-    return ans;
+   }
+   return ans;
 }
+
 
 
 int main(){
