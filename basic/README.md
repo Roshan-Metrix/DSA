@@ -13,3 +13,8 @@
    - Dynamic : the memory allocated at the run time (execution time).
    - Dynamic allocation is in Heap memory.
    - For example : Vector
+
+
+## Time Complexity
+ 
+   - Its not the actual time taken but amount of time taken as function of input size (n) .
