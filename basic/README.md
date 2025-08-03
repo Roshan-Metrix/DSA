@@ -16,5 +16,15 @@
 
 
 ## Time Complexity
- 
-   - Its not the actual time taken but amount of time taken as function of input size (n) .
+ <i>
+   - Its not the actual time taken but amount of time taken as function of input size (n) . It is denoted Big 'O' i.e O(n).
+   </i>
+   
+   - 'O' is known as worst case scenario and also upper bound in DSA .
+
+
+## Space Complexity  
+
+<i>
+  - Amount of space taken by an algorithm as  function of input size(n). It is also denoted by big 'O'.
+</i>
