@@ -27,11 +27,9 @@
        - O(log n)          ---> Excellent
        - O(n)              ---> Very Good
        - O(n log n)        ---> Good
-       $$
        - O(n^2)            ---> Better
        - O(n^3)            ---> Worse
        - O(2^n)            ---> Very Worse
-       $$
        - O(n!)             ---> Very Very Worse
 
 ## Space Complexity  
