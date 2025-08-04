@@ -22,9 +22,20 @@
    
    - 'O' is known as worst case scenario and also upper bound in DSA .
 
+   ### Time Complexity 
+       - O(1)              ---> Outstanding
+       - O(log n)          ---> Excellent
+       - O(n)              ---> Very Good
+       - O(n log n)        ---> Good
+       - O(n<sup>2</sup>)  ---> Better
+       - O(n<sup>3</sup>)  ---> Worse
+       - O(2<sup>n</sup>)  ---> Very Worse
+       - O(n!)             ---> Very Very Worse
 
 ## Space Complexity  
 
 <i>
   - Amount of space taken by an algorithm as  function of input size(n). It is also denoted by big 'O'.
 </i>
+
+  - O(K) -> constant space complexity
