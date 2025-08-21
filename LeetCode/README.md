@@ -3,7 +3,7 @@
 - Try every possible solution to find the answer.
 - For example, to find the maximum subarray sum, check the sum of all possible subarrays and pick the largest.
 
-# Kadane's Algorithm
+# Kadane's Algorithm .
 - <i>Kadane's Algorithm is a popular and efficient method to solve the Maximum Subarray Sum problem. It uses a dynamic programming approach to find the largest sum of a contiguous subarray in an array of integers </i>
 - Efficient way to find the maximum subarray sum.
 - Keep track of the current sum and the maximum sum as you go through the array.
