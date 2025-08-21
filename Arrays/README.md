@@ -1,5 +1,5 @@
 # Array
-   - It store the data of same data type.
+   - It store the data of same data type. .
 
 ## Two Types of Array are there 
    - 2D Array 

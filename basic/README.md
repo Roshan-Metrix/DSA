@@ -8,7 +8,7 @@
    - Static allocation is in stack memory.
    - For example : Array
 
-   ### Dynamic Allocation
+   ### Dynamic Allocation .
 
    - Dynamic : the memory allocated at the run time (execution time).
    - Dynamic allocation is in Heap memory.
