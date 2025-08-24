@@ -1,7 +1,7 @@
 // Three Method to solve
-// 1. Bruteforce method 0(nlogn)
-// 2. By sorting (using inbuilt func method from c++)  0(n)
-// 3. Moore's voting algorithm 0(n)
+// 1. Bruteforce method O(nlogn)
+// 2. By sorting (using inbuilt func method from c++)  O(n)
+// 3. Moore's voting algorithm O(n)
 // 
 
 #include<iostream>
