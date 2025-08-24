@@ -156,4 +156,4 @@ Updating, improving and correcting the documentation
 
 <!-- omit in toc -->
 ## Attribution
-This guide is based on the [contributing.md](https://contributing.md/generator)!
+
