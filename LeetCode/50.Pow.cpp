@@ -18,7 +18,7 @@ double myPow(double x, int n) {
 
 int main(){
     double base = 2;
-    int power = 3; 
+    int power = -3; 
     cout << myPow(base, power);
     return 0;
 }
