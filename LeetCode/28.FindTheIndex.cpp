@@ -1,3 +1,5 @@
+//  naive substring search algorithm
+
 #include<iostream>
 #include<string>
 using namespace std;
