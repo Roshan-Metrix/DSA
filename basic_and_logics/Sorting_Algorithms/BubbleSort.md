@@ -1,5 +1,10 @@
-video Explanation:  
-https://www.youtube.com/watch?v=o4bAoo_gFBU
+# Bubble Sort in C++
+
+This document explains the Bubble Sort algorithm and provides a sample implementation in C++.
+
+
+## Video Explanation
+[Watch on YouTube](https://www.youtube.com/watch?v=o4bAoo_gFBU)
 
 ```cpp
 #include <iostream>
