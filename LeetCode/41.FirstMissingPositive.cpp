@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// cycle test 
+// cycle sort method
 
 int firstMissingPositive(vector<int>& nums) {
           int n = nums.size();
