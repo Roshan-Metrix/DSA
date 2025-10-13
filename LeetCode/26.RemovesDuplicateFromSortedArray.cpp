@@ -14,10 +14,10 @@ int removeDuplicates(vector<int>& nums) {
 
 int main() {
     vector<int> nums = {1, 1, 2};
-    int k = removeDuplicates(nums); // call once
+    int k = removeDuplicates(nums); 
 
     for (int i = 0; i < k; ++i) {
-        cout << nums[i] << " ";
+        cout << nums[i] << " ";  // 2
     }
     cout << endl;
 }
