@@ -14,5 +14,5 @@ return ranges::max(dp);
  int main(){
     vector<int> energy = {5,2,-10,-5,1};
     int k = 3;
-    cout << maximumEnergy(energy,k);
+    cout << maximumEnergy(energy,k); // 3
  }   
