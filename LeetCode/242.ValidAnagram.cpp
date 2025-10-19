@@ -1,0 +1,28 @@
+#include<iostream>
+#include<vector>
+#include<string>
+#include<algorithm>
+using namespace std;
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if (s.size() != t.size()) {
+            return false;
+        }
+        vector<int> cnt(26);
+        for (int i = 0; i < s.size(); ++i) {
+            ++cnt[s[i] - 'a'];
+            --cnt[t[i] - 'a'];
+        }
+        return all_of(cnt.begin(), cnt.end(), [](int x) { return x == 0; });
+    }
+};
+
+int main() {
+    Solution sol;
+    string s = "anagram";
+    string t = "nagaram";
+    cout << (sol.isAnagram(s, t) ? "true" : "false") << endl; // Output: true
+    return 0;
+}
