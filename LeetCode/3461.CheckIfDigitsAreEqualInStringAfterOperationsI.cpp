@@ -10,8 +10,6 @@ public:
         for (int k = n - 1; k > 1; --k) {
             for (int i = 0; i < k; ++i) {
                 t[i] = (t[i] - '0' + t[i + 1] - '0') % 10 + '0';
-                // (t[i] - '0') converts char to int.
-               // % 10 + '0' converts result back to char.
             }
         }
         return t[0] == t[1];
