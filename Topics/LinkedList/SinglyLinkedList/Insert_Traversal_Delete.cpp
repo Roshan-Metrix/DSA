@@ -1,4 +1,4 @@
-// Singly Linked List [ Inserting at any position , traversing ]
+// Singly Linked List [ Inserting at any position , traversing, deletion ]
 
 #include<iostream>
 using namespace std;
@@ -26,7 +26,7 @@ void insertAtTail(Node* &tail, int d){
     // new node create
     Node* temp = new Node(d);
     tail -> next = temp;
-    tail = tail -> next;
+    tail = temp;
 }
 
 void insertAtPosition(Node* &tail,Node* &head, int position, int d){
@@ -51,7 +51,7 @@ void insertAtPosition(Node* &tail,Node* &head, int position, int d){
          return;
     }
 
-    //creating a node for d
+    //creating a node to insert
     Node* nodeToInsert = new Node(d);
     
     nodeToInsert -> next = temp -> next;
@@ -93,6 +93,9 @@ int main(){
 
     insertAtPosition(tail, head, 4, 22);
     print(head);
+
+    cout << "head : " << head -> data << endl; // 10
+    cout << "tail : " << tail -> data << endl; // 22
 
     return 0;
 }
