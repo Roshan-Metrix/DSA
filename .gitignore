@@ -6,3 +6,4 @@
 .vscode/
 
 LeetCode/test*.cpp
+test.cpp
