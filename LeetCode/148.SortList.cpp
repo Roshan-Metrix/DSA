@@ -8,6 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+ // Merge Sort (Divide , Conquer & Merge)
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
