@@ -1,0 +1,26 @@
+class Solution {
+ public:
+  long long minNumberOfSeconds(int mountainHeight, vector<int>& workerTimes) {
+    long l = 1;
+    long r = static_cast<long>(ranges::min(workerTimes)) * mountainHeight *
+             (mountainHeight + 1) / 2;
+
+    while (l < r) {
+      const long m = (l + r) / 2;
+      if (getReducedHeight(workerTimes, m) < mountainHeight)
+        l = m + 1;
+      else
+        r = m;
+    }
+
+    return l;
+  }
+
+ private:
+  int getReducedHeight(const vector<int>& workerTimes, long m) {
+    int reducedHeight = 0;
+    for (const int workerTime : workerTimes)
+      reducedHeight += (-1 + sqrt(1 + 8 * m / workerTime)) / 2;
+    return reducedHeight;
+  }
+};
