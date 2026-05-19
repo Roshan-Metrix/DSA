@@ -59,7 +59,11 @@ Find minimum window substring containing all characters
 ## When to Use Sliding Window
 
 ✓ Problem involves contiguous elements (subarray/substring)
+
 ✓ Need to optimize from O(n²) to O(n)
+
 ✓ Requires finding min/max in a range
+
 ✓ Need to count occurrences or validate conditions
+
 ✓ Linear data structure traversal
