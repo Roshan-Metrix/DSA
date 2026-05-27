@@ -1,3 +1,5 @@
+// To check the lowercase and uppercase occurance and lower before upper 
+
 class Solution {
 public:
     int numberOfSpecialChars(string word) {
