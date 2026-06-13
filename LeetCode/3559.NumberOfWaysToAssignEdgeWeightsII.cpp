@@ -1,7 +1,7 @@
 class Solution {
  public:
   vector<int> assignEdgeWeights(vector<vector<int>>& edges,
-                                vector<vector<int>>& queries) {
+  vector<vector<int>>& queries) {
     const int n = edges.size() + 1;
     vector<int> ans;
     vector<int> depth(n + 1);
