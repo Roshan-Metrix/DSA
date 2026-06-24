@@ -8,6 +8,6 @@ public:
             rev = rev * 10 + r;
             n /= 10;
         }
-        return abs(org - rev);
+        return abs(org - rev) ;
     }
 };
